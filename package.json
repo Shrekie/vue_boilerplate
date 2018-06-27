@@ -9,7 +9,7 @@
     "postinstall": "bower install"
   },
   "engines": {
-    "node": "8.11.3",
+    "node": "8.9.4",
     "npm": "5.6.0"
   },
   "author": "Thomas Lindauer",
