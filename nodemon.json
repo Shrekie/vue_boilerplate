@@ -11,5 +11,6 @@
         "server/public/*",
         "nodemon.json"
     ],
+    "ext": "js json css styl jade vue",
     "delay": "5000"
   }
