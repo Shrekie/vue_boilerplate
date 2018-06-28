@@ -25,7 +25,7 @@ app.use(application);
 
 // Static routes
 app.get('/error', (req, res) => {
-	res.send('Something went wrong.');
+    res.send('Something went wrong.');
 });
 
 app.get('/', (req, res) => {
@@ -39,6 +39,6 @@ if(env_config.env == 'development'){
     });
 }else{
 	app.listen(process.env.PORT, '0.0.0.0', () => {
-		console.log('Started on port ', process.env.PORT);
+	    console.log('Started on port ', process.env.PORT);
 	});
 }
